@@ -1,6 +1,9 @@
 #include <stdio.h>
 /**
- * main - main block
+ * main - Entry point
+ *
+ * description: print the size of version types.
+ *
  * Return: 0
  */
 int main(void)
