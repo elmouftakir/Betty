@@ -11,13 +11,12 @@
 
 int main(void)
 {
-	int c = '48';
+	char c = '0';
 
-	while (c <= '57')
+	while (c <= '9')
 	{
 		putchar(c);
 		c++;
-	
 	}
 	putchar('\n');
 	return (0);
