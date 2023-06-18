@@ -5,7 +5,8 @@
 /**
  * main - Entre point
  *
- * return (0) is successful
+ *
+ * Return: (0) is successful
 */
 
 int main(void)
