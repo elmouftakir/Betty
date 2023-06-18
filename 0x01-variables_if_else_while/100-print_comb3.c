@@ -23,8 +23,8 @@ int main(void)
 			putchar(b);
 			if (a != '8')
 				{
-					putchar(',')
-					putchar(' ')
+					putchar(',');
+					putchar(' ');
 				}
 				b++;
 		}
