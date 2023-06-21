@@ -9,7 +9,7 @@
  *        -1 and prints '-' if n is less than zero.
  */
 
-int print_sign(int n)
+int print_sign(int num)
 {
 	if (num > 0)
 	{
