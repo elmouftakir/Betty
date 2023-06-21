@@ -7,7 +7,7 @@
 
 void print_alphabet_10(void)
 {
-	int line. c;
+	int line, c;
 
 	for (line = 0; line <= 9; line++)
 	{
