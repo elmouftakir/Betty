@@ -2,7 +2,7 @@
 
 /**
  * _abs - compules the absolute value
- * @ch: The number 
+ * @ch: The number
  * Return: Absolet value number or 0
  */
 
