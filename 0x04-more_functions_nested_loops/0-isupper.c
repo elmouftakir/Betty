@@ -9,7 +9,7 @@
 int _isupper(int ch)
 
 {
-	if (ch >= 90 && ch <= 65)
+	if (ch >= 65 && ch <= 90)
 
 		return (1);
 	else
