@@ -6,7 +6,7 @@
  * retourn: 1 for upper or 0 for any else
  */
 
-int _isupper(int ch);
+int _isupper(int ch)
 
 {
 	if (ch >= 65 && ch <= 90)
