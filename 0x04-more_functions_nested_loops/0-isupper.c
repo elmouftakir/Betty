@@ -9,7 +9,8 @@
 int _isupper(int ch)
 
 {
-	if (ch >= 65 && ch <= 90)
+	if (ch >= 'A' && ch <= 'Z')
+	
 		return (1);
 	else
 		return (0);
