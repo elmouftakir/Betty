@@ -2,7 +2,7 @@
 
 /**
  * _isupper - checks for uppercase character
- * @ch: the number to be checked
+ * @ch : the number to be checked
  * retourn: (1) for upper or (0) for any else
  */
 
