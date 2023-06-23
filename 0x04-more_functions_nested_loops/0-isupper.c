@@ -3,13 +3,13 @@
 /**
  * _isupper - checks for uppercase character
  * @ch : the number to be checked
- * retourn: (1) for upper or (0) for any else
+ * retourn: for upper (1) or (0) for any else
  */
 
 int _isupper(int ch)
 
 {
-	if (ch >= 65 && ch <= 90)
+	if (ch >= 'A' && ch <= 'Z')
 
 		return (1);
 	else
