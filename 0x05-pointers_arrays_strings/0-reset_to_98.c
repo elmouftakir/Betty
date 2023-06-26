@@ -4,7 +4,7 @@
  * reset_to_98 - function that takes a pointer to an int
  * @n: int parametre
  * Return: nothing
- */
+*/
 
 void reset_to_98(int *n)
 
