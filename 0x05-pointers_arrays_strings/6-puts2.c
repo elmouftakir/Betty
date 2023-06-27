@@ -2,7 +2,7 @@
 
 /**
  * puts2 - function prints every other character of a string
- * 
+ *
  * @str: input
  *
  * Return: void
@@ -17,8 +17,10 @@ void puts2(char *str)
 	int temp = 0;
 	char *p = str;
 	int c;
+
 	while (*p != '\0')
-	{	p++;
+	{
+		p++;
 		lon++;
 	}
 	temp = lon - 1;
