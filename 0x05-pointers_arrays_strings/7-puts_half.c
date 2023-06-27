@@ -12,15 +12,15 @@
 
 void puts_half(char *str)
 {
-	int a, b, lon;
+	int a, n, lon;
 
 	lon = 0;
 	for (a = 0; str[a] != '\0'; a++)
 		lon++;
-	b = (lon / 2);
+	n = (lon / 2);
 	if ((lon % 2) == 1)
-		b = ((lon + 1) / 2)
-			for (a = b; str[a] != '\0'; a++)
+		n = ((lon + 1) / 2);
+			for (a = n; str[a] != '\0'; a++)
 				_putchar(str[a]);
 	_putchar('\n');
 }
