@@ -3,6 +3,8 @@
  * factorial - function that returns the factorial of a given number
  *
  * @n : given number
+ *
+ * Return: factorial number
 */
 int factorial(int n)
 {
