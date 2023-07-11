@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strdup - function that returns a pointer to a newly allocated space in memory,
+ * _strdup - function return pointer to a newly allocated
  *
  * @str: Pointer to string.
  *
@@ -17,8 +17,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	dup = malloc(
-			(1 + strlen(str)) * sizeof(char));
+	dup = malloc((1 + strlen(str)) * sizeof(char));
 
 	if (dup == NULL)
 		return (NULL);
