@@ -4,28 +4,28 @@
 /**
  * _strdup - function return pointer to a newly allocated
  *
- * @str: Pointer to string.
+ * @str: string.
  *
- * Return: On success (str), otherwase (NULL).
+ * Return: pointer on array of chars
  */
 
 char *_strdup(char *str)
 {
-	int i = 0;
-	char *dup;
-
+	char *strout;
+	unsigned int a, b;
+	
 	if (str == NULL)
 		return (NULL);
+	
+	for (a = 0; str[a] != '\0'; a++);
 
-	dup = malloc((1 + strlen(str)) * sizeof(char));
-
-	if (dup == NULL)
+	strout = (char *)malloc(sizeof(char) * (a + 1));
+	
+	if (strout == NULL)
 		return (NULL);
-	while (str[i])
-	{
-		dup[i] = str[i];
-		i++;
-	}
-	dup[i] = '\0';
-	return (dup);
+	
+	for (b = 0; b <= a; b++)
+		strout[b] = str[b];
+	
+	return (strout);
 }
