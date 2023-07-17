@@ -1,6 +1,6 @@
-#ifndef _PI_H
-#define _PI_H
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
 #define PI 3.14159265359
 
-#endif /* _PI_H */
+#endif
