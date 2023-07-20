@@ -1,46 +1,50 @@
 #include "variadic_functions.h"
 
 /**
- * op - Print character .
- * @valist: name va_list
- * Return: No Return
+ * op_c - Print character .
+ * @form: name va_list
+ *
+ * Return: Nothing.
  */
 
-void op-c(va_list form)
+void op_c(va_list form)
 {
-	printf("%c", va_arg(valist, int));
+	printf("%c", va_arg(form, int));
 }
 /**
  * op_i - Print Integer
- * valist: name va_list
- * Return: No Return
+ * @form: name va_list
+ *
+ * Return: Nothing.
  */
 
-void op-i(va_list valist)
+void op_i(va_list form)
 {
-	printf("%i", va_arg(valist, int));
+	printf("%i", va_arg(form, int));
 }
 /**
  * op_f - print FLoat numbers
- * @valist: name of va_list
- * Return: No Return
+ * @form: name of va_list
+ *
+ * Return: Nothing.
  */
 
-void op-f(va_list valist)
+void op_f(va_list form)
 {
-	printf("%f", va_arg(valist, double));
+	printf("%f", va_arg(form, double));
 }
 /**
  * op_s -print string
- * @valist: name va_list
- * Return: No Return
+ * @form: name va_list
+ *
+ * Return: Nothing.
  */
 
-void op-s(va_list valist)
+void op_s(va_list form)
 {
 	char *str;
 
-	str = va_arg(valist, char *);
+	str = va_arg(form, char *);
 	if (str == NULL)
 	{
 		printf("(nil)");
@@ -52,7 +56,8 @@ void op-s(va_list valist)
 /**
  * print_all - check the code for Holberton School students.
  * @format: number of arguments in character format
- * Return: No Return
+ *
+ * Return: Nothing.
  */
 
 void print_all(const char * const format, ...)
@@ -63,10 +68,10 @@ void print_all(const char * const format, ...)
 	char *separator = "";
 
 	f ops[] = {
-		{"c", op-c},
-		{"i", op-i},
-		{"f", op-f},
-		{"s", op-s},
+		{"c", op_c},
+		{"i", op_i},
+		{"f", op_f},
+		{"s", op_s},
 		};
 
 	va_start(all, format);
