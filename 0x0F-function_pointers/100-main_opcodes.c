@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int number;
+	int num;
 
 	if (argc != 2)
 	{
@@ -24,6 +24,6 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	number = atoi(argv[1]);
+	num = atoi(argv[1]);
 	return (0);
 }
