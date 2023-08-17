@@ -27,3 +27,15 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
+
+	if ((op == '/' || op == '%') && n2 == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+
+	num = (get_op_func(argv[2]))(n1, n2);
+	printf("%d\n", num);
+	return (0);
+}
+
